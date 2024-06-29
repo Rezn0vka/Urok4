@@ -1,6 +1,6 @@
 package obobcenie;
 
-import obobcenie.controller.TeacherController;
+import obobcenie.controll.TeacherControll;
 
 public class Main {
 
