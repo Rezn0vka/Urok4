@@ -5,12 +5,12 @@ import obobcenie.model.Teacher;
 import obobcenie.service.TeacherService;
 import obobcenie.view.TeacherView;
 
-public class TeacherController implements UserController<Teacher> {
+public class TeacherControll implements UserControll<Teacher> {
 
     private final TeacherService teacherService;
     private final TeacherView teacherView;
 
-    public TeacherController() {
+    public TeacherControll() {
         this.teacherService = new TeacherService();
         this.teacherView = new TeacherView();
     }
